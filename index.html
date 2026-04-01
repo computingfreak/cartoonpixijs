@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cartoon Storyverse • PixiJS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="sidebar">
+        <h1>Cartoon Storyverse</h1>
+        <p>Pick a story and watch the scene animate. Tap the canvas for sparkle bursts.</p>
+        <div id="story-buttons" class="story-buttons"></div>
+        <div class="legend">
+          <h2>Stories</h2>
+          <ol>
+            <li>Toy Rescue in Rainbow Room</li>
+            <li>Jungle Rhythm Quest</li>
+            <li>Super Pup Sky Patrol</li>
+            <li>Frozen Heart Lantern</li>
+            <li>Mini Chef Time Machine</li>
+          </ol>
+        </div>
+      </section>
+      <section class="stage-wrap">
+        <div id="stage"></div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@8/dist/pixi.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
